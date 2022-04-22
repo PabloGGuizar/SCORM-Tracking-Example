@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    border: solid 1px lightgray;
+    border-radius: 0.6rem;
+    padding: 4rem;
+}
+
+.btn {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 3rem;   
+}
+
+.status {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input {
+    font-size: 1rem;
+}

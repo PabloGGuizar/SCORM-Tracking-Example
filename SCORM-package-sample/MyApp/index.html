@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+
+    <link rel="stylesheet" href="./styles.css"></link>
+    <script src="../JavaScript/SCORM_API_wrapper.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h2 class="title">SCORM Tracking Example</h2>
+        <h3 class="status">Status course: <i id="displayStatus"></i></h3>
+        <button class="btn" id="getStatus">Get status</button>
+        <button class="btn" id="setStatusPassed">Set status Passed</button>
+        <button class="btn" id="setStatusFailed">Set status Failed</button>
+        <br><br>
+        <form>
+            <label>Score: <input id="inputScore" placeholder="Enter course score"></label>
+            <button class="btn" id="setScore">Set Score</button>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
